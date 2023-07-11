@@ -20,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/zhid0399123/fullstack-open-exercises/issues"
   },
-  "homepage": "https://github.com/zhid0399123/fullstack-open-exercises#readme"
+  "homepage": "https://github.com/zhid0399123/fullstack-open-exercises#readme",
+  "dependencies": {
+    "commitizen": "^4.3.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
