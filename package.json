@@ -1,0 +1,24 @@
+{
+  "name": "fullstack-open-exercises",
+  "version": "0.1.0",
+  "description": "This repository houses all the solutions to the exercises from fullstack web development course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhid0399123/fullstack-open-exercises.git"
+  },
+  "keywords": [
+    "fullstack",
+    "web",
+    "development"
+  ],
+  "author": "zhid0399123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhid0399123/fullstack-open-exercises/issues"
+  },
+  "homepage": "https://github.com/zhid0399123/fullstack-open-exercises#readme"
+}
