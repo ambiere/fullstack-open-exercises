@@ -39,6 +39,7 @@ After successfull creation of note, the server responds with HTTP status code 30
 
 <br>
 
+
 #### 3. Reload of the notes page after note creation 
 
 The response from the server (HTTP status code 302) is a URL redirect, with which the server asks the browser to do a new HTTP GET request to the address defined in the header's Location - the address _notes_. So, the browser reloads the Notes page. The reload causes three more HTTP requests: fetching the style sheet (main.css), the JavaScript code (main.js), and the raw data of the notes (data.json). [Refer to action 1](#1-initial-loading-of-the-note-page-containing-javascript-file).
