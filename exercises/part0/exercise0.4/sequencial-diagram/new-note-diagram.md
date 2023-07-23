@@ -36,13 +36,12 @@ sequenceDiagram
 
     Note right of browser: Browser executes callback fn that renders the notes
 
-    User->>browser: createNewNote(new_note)
-    User->>browser: submit(new_note)
+    User->>browser: fill form
+    User->>browser: submit form (new_note)
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_notes
     activate server
-    server->>server: validate(new_note)
 
-    alt new_note data valid
+    alt success
         server-->>browser: 302 URL redirect
 
         Note right of browser: User submitted valid data
@@ -66,15 +65,15 @@ sequenceDiagram
     
         Note right of browser: Browser executes callback fn that renders the notes
 
-        browser-->>User: Clear form inputs
-        browser-->>User: Successfull note creation (message)
+        browser-->>User: Clear form
+        browser-->>User: Success message
     else
         server-->>browser: 404 HTTP Response
         
         Note right of browser: User submitted invalid data. Note was not created. No redirect.
         
         browser-->>User: Persist form inputs
-        browser-->>User: Failed to create new note (message)
+        browser-->>User: Failure message
     end   
 
     deactivate server
