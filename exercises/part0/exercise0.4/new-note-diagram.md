@@ -15,11 +15,13 @@ When the page containing javascript is loaded, the browser fetches the HTML code
 
 <br>
 <br>
-<div style="display: flex; flex-direction: column; gap: 4rem;">
+<p align="center">
 <img src="asset/html-page-load.jpg" alt="Sequencial diagram for creation of new note after full page load" width="75%" style="border: 8px solid lightblue; margin-inline: auto;">
-<span>figure 1.0: Sequencial diagram for notes html page load <span>
-</div>
+</p>
 <br>
+<br>
+
+figure 1.0: Sequencial diagram for notes html page load
 
 ### 2. Creating new note after full page load
 
@@ -33,11 +35,16 @@ The response from the server (HTTP status code 302) is a URL redirect, with whic
 
 <br>
 <br>
+<p align="center">
 <div style="display: flex; flex-direction: column; gap: 4rem;">
 <img src="asset/new-note-diagram.jpg" alt="Sequencial diagram for creation of new note after full page load" width="75%" style="border: 8px solid lightblue; margin-inline: auto;">
-<span>figure 2.0: Sequencial diagram for creation of new note <span>
 </div>
+</p>
 <br>
+<br>
+
+figure 2.0: Sequencial diagram for creation of new note
+
 
 ---
 For a full new note sequencial diagram created using mermaid, please see [new note sequencial diagram](sequencial-diagram/new-note-diagram.md)
