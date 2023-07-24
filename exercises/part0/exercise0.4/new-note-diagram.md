@@ -36,9 +36,7 @@ The response from the server (HTTP status code 302) is a URL redirect, with whic
 <br>
 <br>
 <p align="center">
-<div style="display: flex; flex-direction: column; gap: 4rem;">
 <img src="asset/new-note-diagram.jpg" alt="Sequencial diagram for creation of new note after full page load" width="75%" style="border: 8px solid lightblue; margin-inline: auto;">
-</div>
 </p>
 <br>
 <br>
