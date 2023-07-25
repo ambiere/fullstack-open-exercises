@@ -1,14 +1,11 @@
 # Fullstack Open Exercises
-This repository houses all the solutions to the exercises from fullstack web development course. This repositoy is a monorepo that contains all the exercises arranged based on their respective parts as directories. The directories structure are as follow;
+A monorepo that contain solutions to all the exercises from fullstack open web development course arranged based on their respective parts as directories.
 
-```
-part0
-part1
-  courseinfo
-  unicafe
-  anecdotes
-part2
-  courseinfo
-  phonebook
-  countries
-```
+
+### Content
+
+#### 1. part0
+
+1.0 [exercise0.4](exercises/part0/exercise0.4)<br>
+1.2. [exercise0.5](exercises/part0/exercise0.5)<br>
+1.3. [exercise0.6](exercises/part0/exercise0.6)<br>
