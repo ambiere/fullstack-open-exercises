@@ -1,9 +1,9 @@
-type CourseName = {courseName: string}
+type CourseName = {name: string}
 
-function Header({courseName}:CourseName) {
+function Header({name}:CourseName) {
   return (
     <div>
-        <h1>{courseName}</h1>
+        <h1>{name}</h1>
     </div>
   )
 }

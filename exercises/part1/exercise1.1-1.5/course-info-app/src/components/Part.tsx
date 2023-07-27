@@ -1,9 +1,11 @@
 import { ContentType } from './Content'
 
-function Part(content: ContentType) {
+type Part = {part: ContentType}
+
+function Part({part: {name, exercises}}:Part) {
   return (
     <div>
-        <p>{content.part} {content.exercise}</p>
+        <p>{name} {exercises}</p>
     </div>
   )
 }

@@ -1,12 +1,12 @@
 import { useId } from "react"
 import Part from "./Part"
 
-export type ContentType = {part:string, exercise:number}
-type Contents = {contents: ContentType[]}
+export type ContentType = {name:string, exercises:number}
+type Contents = {parts: ContentType[]}
 
-function Content({contents}: Contents) {
-  const id = useId()
-  const content = contents.map(({part, exercise}, index) => <Part key={id+index} part={part} exercise={exercise} />)
+function Content({parts}: Contents) {
+  const key = useId()
+  const content = parts.map((part, index) => <Part key={key+index} part={part} />)
   return (
     <div>
         {content}
