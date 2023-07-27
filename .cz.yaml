@@ -1,8 +1,8 @@
 ---
 commitizen:
+  annotated_tag: true
   name: cz_conventional_commits
   tag_format: $version
-  annotated_tag: true
   update_changelog_on_bump: true
-  version: 0.4.0
+  version: 0.5.0
   version_scheme: semver

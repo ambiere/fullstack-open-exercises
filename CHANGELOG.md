@@ -1,7 +1,8 @@
-## Unreleased
+## 0.5.0 (2023-07-28)
 
 ### Feat
 
+- **commitizen**: adding in commitizen
 - **commitizen**: adding in commitizen
 
 ## 0.4.0 (2023-07-27)
