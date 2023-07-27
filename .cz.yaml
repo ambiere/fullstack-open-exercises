@@ -1,0 +1,8 @@
+---
+commitizen:
+  name: cz_conventional_commits
+  tag_format: v$minor.$major.$patch$prerelease.$devrelease
+  annotated_tag: true
+  update_changelog_on_bump: true
+  version: 0.4.0
+  version_scheme: semver
