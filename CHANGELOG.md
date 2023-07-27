@@ -1,3 +1,9 @@
+## 0.3.0 (2023-07-27)
+
+### Feat
+
+- **commitizen**: ennabled annotated tags
+
 ## 0.2.0 (2023-07-27)
 
 ### Feat
