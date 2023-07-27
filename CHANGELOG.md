@@ -1,3 +1,9 @@
+## 0.4.0 (2023-07-27)
+
+### Feat
+
+- **unicafe**: initialized unicafe app with vite+typescript+react
+
 ## 0.3.0 (2023-07-27)
 
 ### Feat

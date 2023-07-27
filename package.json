@@ -1,6 +1,6 @@
 {
   "name": "fullstack-open-exercises",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "This repository houses all the solutions to the exercises from fullstack web development course",
   "main": "index.js",
   "scripts": {
