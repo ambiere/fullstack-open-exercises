@@ -1,3 +1,9 @@
+## 0.7.0 (2023-07-28)
+
+### Feat
+
+- **unicafe**: added solution to exercise1.6-1.11 (unicafe app)
+
 ## 0.6.0 (2023-07-28)
 
 ### Feat
