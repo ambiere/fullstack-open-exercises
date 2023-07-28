@@ -1,3 +1,9 @@
+## 0.6.0 (2023-07-28)
+
+### Feat
+
+- **commitizen**: added unicafe/package.json to version_files in .cz.yaml config
+
 ## 0.5.0 (2023-07-28)
 
 ### Feat
