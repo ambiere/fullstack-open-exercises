@@ -14,3 +14,4 @@ A monorepo that contain solutions to all the exercises from fullstack open web d
 
 2.1 [exercise1.1-1.5: Course information app](exercises/part1/exercise1.1-1.5)<br>
 2.2 [exercise1.6-1.11: Unicafe App](exercises/part1/exercise1.6-1.11)<br>
+2.3 [exercise1.12-1.14: Anecdote App](exercises/part1/exercise1.12-1.14)<br>
