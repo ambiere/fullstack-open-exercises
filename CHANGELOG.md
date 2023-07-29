@@ -1,3 +1,9 @@
+## 0.8.0 (2023-07-29)
+
+### Feat
+
+- **exercise1.6-1.11-unicafe**: updated the solution for unicafe exercise
+
 ## 0.7.0 (2023-07-28)
 
 ### Feat
