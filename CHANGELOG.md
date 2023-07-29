@@ -1,3 +1,9 @@
+## 0.9.0 (2023-07-29)
+
+### Feat
+
+- **anecdote**: added solution to exercise1.12-1.14-anecdote
+
 ## 0.8.0 (2023-07-29)
 
 ### Feat
