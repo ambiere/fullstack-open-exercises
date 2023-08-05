@@ -1,4 +1,13 @@
-# [0.4.0](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.9.0...0.4.0) (2023-08-05)
+# [0.0.0](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.10.0...0.0.0) (2023-08-05)
+
+
+
+# [0.10.0](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.9.0...0.10.0) (2023-08-05)
+
+
+### Features
+
+* **commitizen:** disabled changelog on bump ([a29f9e6](https://github.com/zhid0399123/fullstack-open-exercises/commit/a29f9e6c68781c0c1e85ba4afc9e181a2d012295))
 
 
 
