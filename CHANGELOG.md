@@ -1,3 +1,11 @@
+# [0.0.0](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.10.2...0.0.0) (2023-08-05)
+
+
+
+## [0.10.2](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.10.1...0.10.2) (2023-08-05)
+
+
+
 ## [0.10.1](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.10.0...0.10.1) (2023-08-05)
 
 
