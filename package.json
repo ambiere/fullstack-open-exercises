@@ -1,10 +1,12 @@
 {
   "name": "fullstack-open-exercises",
-  "version": "0.4.0",
+  "version": "0.0.0",
   "description": "This repository houses all the solutions to the exercises from fullstack web development course",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "cz bump",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
   "repository": {
     "type": "git",
