@@ -1,12 +1,12 @@
-function AvarageScore({feedback: {good, neutral, bad}}) {
-    const totalFeedback = good + neutral + bad 
-    const scores = (good - bad) / totalFeedback 
+function AvarageScore({ feedback: { good, neutral, bad } }) {
+  const totalFeedback = good + neutral + bad
+  const scores = (good - bad) / totalFeedback
 
-    return (
-      <div className='avarage-score'>
-          <p>Avarage</p>
-          <p>{scores ? scores : 0}</p>
-      </div>
+  return (
+    <div className="avarage-score">
+      <p>Avarage</p>
+      <p>{scores ? scores : 0}</p>
+    </div>
   )
 }
 

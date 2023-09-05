@@ -1,8 +1,8 @@
-function StatisticLine({feedback, amount}) {
+function StatisticLine({ feedback, amount }) {
   return (
     <div className="statistic-line">
-        <p>{feedback}</p>
-        <p>{amount}</p>
+      <p>{feedback}</p>
+      <p>{amount}</p>
     </div>
   )
 }

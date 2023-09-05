@@ -1,6 +1,6 @@
 # Fullstack Open Exercises
-A monorepo that contain solutions to all the exercises from fullstack open web development course arranged based on their respective parts as directories.
 
+A monorepo that contain solutions to all the exercises from fullstack open web development course arranged based on their respective parts as directories.
 
 ### Content
 

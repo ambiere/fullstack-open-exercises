@@ -1,6 +1,8 @@
-function FeedbackButton({feedback, updatateFeedback}) {
+function FeedbackButton({ feedback, updatateFeedback }) {
   return (
-    <button type="button" onClick={()=>updatateFeedback(feedback)}>{feedback}</button>
+    <button type="button" onClick={() => updatateFeedback(feedback)}>
+      {feedback}
+    </button>
   )
 }
 
