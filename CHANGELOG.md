@@ -1,4 +1,17 @@
-# [0.0.0](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.10.2...0.0.0) (2023-08-05)
+# [0.0.0](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.11.0...0.0.0) (2023-09-05)
+
+# [0.11.0](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.10.3...0.11.0) (2023-09-05)
+
+### Features
+
+- **2.1-2.5-course-info-app:** added solution to exercise 2.1-1.5 ([48da0f3](https://github.com/zhid0399123/fullstack-open-exercises/commit/48da0f3051c416811983e114c4e5e3c7bc837a46))
+- **eslint:** configured eslint ([36b00e6](https://github.com/zhid0399123/fullstack-open-exercises/commit/36b00e664e7bbe30ea1c65076134bc76dd79e590))
+- **eslint:** configured eslint ([01c07d8](https://github.com/zhid0399123/fullstack-open-exercises/commit/01c07d8154a489cc88a9bb74e38cf9b5da7bbe26))
+- **husky:** configured husky for pre-commit tasks ([023b44f](https://github.com/zhid0399123/fullstack-open-exercises/commit/023b44f97a6b787427e9d1387918becd7a61e36b))
+- **lint-staged:** configured lint-staged ([f1cc028](https://github.com/zhid0399123/fullstack-open-exercises/commit/f1cc028112e16d201ca090b58c79dc97cf1385f1))
+- **prettier:** configured prettier ([2062458](https://github.com/zhid0399123/fullstack-open-exercises/commit/2062458b3a2b6c3380de95741b96f09f81dfdb45))
+
+## [0.10.3](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.10.2...0.10.3) (2023-08-05)
 
 ## [0.10.2](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.10.1...0.10.2) (2023-08-05)
 
