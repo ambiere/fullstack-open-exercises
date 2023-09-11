@@ -19,3 +19,4 @@ A monorepo that contain solutions to all the exercises from fullstack open web d
 #### 3. part2: Communicating with server
 
 3.1 [exercise2.1-2.5: Course information app](exercises/part2/exercise2.1-2.5)<br>
+3.2 [exercise2.6-2.17: The phonebook](exercises/part2/exercise2.6-2.17)<br>
