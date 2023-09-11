@@ -1,3 +1,16 @@
+# [0.12.0](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.11.0...0.12.0) (2023-09-11)
+
+### Features
+
+- **api:** added phonebook.ts module that handles all the async request to json-server ([fca2f50](https://github.com/zhid0399123/fullstack-open-exercises/commit/fca2f50f21f1bd9395d2a0c2663f11da4174996a))
+- **index.html:** changed document title and favicon ([5e5090a](https://github.com/zhid0399123/fullstack-open-exercises/commit/5e5090a6a9e325cce9d501dd0b2fff9a35e7c634))
+- **main.tsx:** initital commit ([d04e5a4](https://github.com/zhid0399123/fullstack-open-exercises/commit/d04e5a48fcbc934c5cfc469d18fd5e93cb4dc5d9))
+- **phonebook:** initial commit for exercise2.6-2.17 ([54f2894](https://github.com/zhid0399123/fullstack-open-exercises/commit/54f2894b696d3b00102bc07c72281b63b3cfae4f))
+- **public:** added favicon.png ([6ef0e7f](https://github.com/zhid0399123/fullstack-open-exercises/commit/6ef0e7f3bfd546a4cba0f445a6fb1a15ea9a405f))
+- **store:** added db.json from which json-server store/read data ([90d811e](https://github.com/zhid0399123/fullstack-open-exercises/commit/90d811e297830e3923a68649d1e57fa10b01caa0))
+- **util:** added util functions that support the app ([030871d](https://github.com/zhid0399123/fullstack-open-exercises/commit/030871d604791f09ca8861418a1d2d40168ef654))
+- **vite-env.d.ts:** initial commit ([8f75bba](https://github.com/zhid0399123/fullstack-open-exercises/commit/8f75bbaa0585ae187fa1d560c648427ec136fe87))
+
 # [0.11.0](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.10.3...0.11.0) (2023-09-05)
 
 ### Features
