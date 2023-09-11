@@ -12,11 +12,12 @@ A monorepo that contain solutions to all the exercises from fullstack open web d
 
 #### 2. part1: Introduction to React
 
-2.1 [exercise1.1-1.5: Course information app](exercises/part1/exercise1.1-1.5)<br>
-2.2 [exercise1.6-1.11: Unicafe App](exercises/part1/exercise1.6-1.11)<br>
+2.1 [exercise1.01-1.05: Course information app](exercises/part1/exercise1.01-1.05)<br>
+2.2 [exercise1.06-1.11: Unicafe App](exercises/part1/exercise1.06-1.11)<br>
 2.3 [exercise1.12-1.14: Anecdote App](exercises/part1/exercise1.12-1.14)<br>
 
 #### 3. part2: Communicating with server
 
-3.1 [exercise2.1-2.5: Course information app](exercises/part2/exercise2.1-2.5)<br>
-3.2 [exercise2.6-2.17: The phonebook](exercises/part2/exercise2.6-2.17)<br>
+3.1 [exercise2.01-2.05: Course information app](exercises/part2/exercise2.01-2.05)<br>
+3.2 [exercise2.06-2.17: The phonebook](exercises/part2/exercise2.06-2.17)<br>
+3.3 [exercise2.18-2.20: The phonebook](exercises/part2/exercise2.18-2.20)<br>
