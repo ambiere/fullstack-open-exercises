@@ -7,8 +7,16 @@ type NotificationPropsType = {
 
 function Notification({ notification }: NotificationPropsType) {
   const active = notification.message != '' ? style.active : ''
-  const modify = notification.type === 'success' ? style.success : notification.type === 'warn' ? style.warn : ''
-  return <span className={`${style.notification} ${active} ${modify}`}>{notification && notification.message}</span>
+  const styleObject: { [index: string]: string } = {
+    warn: style.warn,
+    success: style.success,
+  }
+
+  return (
+    <span className={`${style.notification} ${active} ${styleObject[notification.type]}`}>
+      {notification && notification.message}
+    </span>
+  )
 }
 
 export default Notification
