@@ -1,3 +1,0 @@
-Exercise 1.1-1.5: Course Info App
-
-### Course Information App
