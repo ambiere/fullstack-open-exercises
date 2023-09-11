@@ -1,0 +1,68 @@
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 10px;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 1280px;
+  min-width: 360px;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: rgba(203, 203, 203, 0.8);
+}
+
+label {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+input {
+  font-size: 1.6rem;
+  font-family: inherit;
+  appearance: none;
+  background: transparent;
+  width: 30rem;
+  height: 40px;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid rgb(89, 89, 89);
+  outline: 2px solid transparent;
+  border-radius: 8px;
+  transition: all 250ms ease;
+}
+
+input:focus {
+  outline-color: rgba(128, 128, 128, 0.328);
+}

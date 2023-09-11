@@ -1,0 +1,7 @@
+@layer app {
+  .phonebook {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+}

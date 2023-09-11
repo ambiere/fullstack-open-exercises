@@ -1,0 +1,45 @@
+@layer notification {
+  .notification {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    top: -10rem;
+    left: 0;
+    padding: 1.2rem 1.8rem;
+    font-size: 1.4rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 500ms ease;
+    z-index: 99;
+  }
+
+  .active {
+    transform: translateY(10rem);
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+  }
+
+  .notification::before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 100px;
+    background: #1a1a1aff;
+    backdrop-filter: blur(2px);
+    opacity: 0.8;
+    inset: 0;
+    z-index: -1;
+  }
+
+  .success.notification::before {
+    border-bottom: 2px solid rgba(0, 128, 0, 0.2);
+  }
+
+  .warn.notification:before {
+    border-bottom: 2px solid rgba(255, 0, 0, 0.2);
+  }
+}
