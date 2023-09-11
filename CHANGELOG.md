@@ -1,3 +1,9 @@
+## [0.12.1](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.12.0...0.12.1) (2023-09-11)
+
+### Refactor
+
+- **notification:** refactored style conditional logic ([9725b15](https://github.com/zhid0399123/fullstack-open-exercises/commit/9725b15556b8375de8d42eb4780b95b38693b658))
+
 # [0.12.0](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.11.0...0.12.0) (2023-09-11)
 
 ### Features
