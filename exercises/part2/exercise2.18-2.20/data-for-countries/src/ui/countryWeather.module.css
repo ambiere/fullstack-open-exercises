@@ -1,0 +1,68 @@
+@layer country-weather {
+  .weatherContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .weatherGeneral {
+    border: 1px solid rgba(89, 89, 89, 0.622);
+    border-radius: 8px;
+    padding: 2rem 2rem;
+    width: fit-content;
+    margin: 1rem auto;
+  }
+  .weatherCapital {
+    margin: 0;
+  }
+  .weatherGeneral > span {
+    color: rgb(145, 145, 145);
+  }
+
+  .weatherExtraContainer {
+    gap: 2rem;
+  }
+  .temperatureContainer {
+    display: flex;
+    border-block-end: 4px solid rgba(89, 89, 89, 0.622);
+    padding-right: 2rem;
+  }
+
+  .temperatureContainer > img {
+    height: 60px;
+  }
+
+  .temperature {
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    place-self: center;
+  }
+  .otherWeather {
+    margin-top: 1rem;
+    width: 300px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0;
+    flex-wrap: wrap;
+  }
+  .otherWeather > h2 {
+    white-space: pre;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-block: 0;
+    margin-inline: 0.4rem;
+    color: inherit !important;
+  }
+  .otherWeather > h2 > p {
+    margin: 0;
+    font-size: 1.2rem !important;
+    white-space: pre;
+    color: rgb(145, 145, 145) !important;
+    place-self: end;
+  }
+}

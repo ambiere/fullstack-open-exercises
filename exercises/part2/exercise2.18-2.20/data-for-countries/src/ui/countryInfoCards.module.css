@@ -1,0 +1,37 @@
+@layer country-cards {
+  .cardWrapper {
+    display: flex;
+    gap: 1rem;
+    margin-block: 2rem;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(89, 89, 89, 0.622);
+    height: 100px;
+    min-width: 100px;
+    max-width: fit-content;
+    padding: 0.54rem 0.8rem;
+    border-radius: 8px;
+  }
+
+  .card > span {
+    color: rgb(145, 145, 145);
+  }
+
+  .card > h1 {
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    place-self: center;
+  }
+
+  .card > *:is(span, h2) {
+    padding: 0;
+    margin: 0;
+    place-self: center;
+    white-space: pre;
+  }
+}

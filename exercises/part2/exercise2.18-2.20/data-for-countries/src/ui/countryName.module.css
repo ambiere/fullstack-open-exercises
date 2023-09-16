@@ -1,0 +1,5 @@
+@layer country-name {
+  .countryName {
+    width: fit-content;
+  }
+}
