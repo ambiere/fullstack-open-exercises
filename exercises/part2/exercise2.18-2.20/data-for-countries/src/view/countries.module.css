@@ -1,0 +1,36 @@
+@layer countries {
+  .ul {
+    width: 30rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 0.5rem;
+    margin-block: 1rem;
+    padding: 0;
+  }
+
+  .li {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .button {
+    appearance: none;
+    padding-block: 0.4rem;
+    padding-inline: 0.8rem;
+    font-family: inherit;
+    background-color: #1a1a1aff;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 250ms ease;
+  }
+
+  .button:hover {
+    background: rgba(26, 26, 26, 0.49);
+    border-color: rgb(89, 89, 89);
+  }
+}
