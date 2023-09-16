@@ -1,8 +1,20 @@
+# [0.0.0](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.13.0...0.0.0) (2023-09-16)
+
+# [0.13.0](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.12.1...0.13.0) (2023-09-16)
+
+### Features
+
+- **api:** country data api and errorLogger ([de334c3](https://github.com/zhid0399123/fullstack-open-exercises/commit/de334c3debf20456128063626d8ef7b6fb94bb6e))
+- **app.module.css:** added styles ([8feb3f2](https://github.com/zhid0399123/fullstack-open-exercises/commit/8feb3f217977efff9d20b16fd5bbdef1b25c61b8))
+- **component:** component for country ui ([13f30e7](https://github.com/zhid0399123/fullstack-open-exercises/commit/13f30e752e08bc048f9a5e52202552eba7055dba))
+- **convertToCelsius.tsx:** convert temperature in kelvin to celsius ([bd70f5d](https://github.com/zhid0399123/fullstack-open-exercises/commit/bd70f5d04eea78e11b4b9b3602b57dd621b4aae4))
+- **index.css:** added styles ([7f12c78](https://github.com/zhid0399123/fullstack-open-exercises/commit/7f12c78b0c8b2164f2d280ba287a3f86992e8c3a))
+- **index.html:** added cdn links for leafletjs map ([5cb7b6d](https://github.com/zhid0399123/fullstack-open-exercises/commit/5cb7b6d0082564c6c4c6a44f1f849d152ba18066))
+- **ui:** country ui components ([366ff34](https://github.com/zhid0399123/fullstack-open-exercises/commit/366ff34344f12555aef6294d37efbbcb35d96d70))
+- **useDebounce.tsx:** debounce hook for the searchInput ([bb2bf47](https://github.com/zhid0399123/fullstack-open-exercises/commit/bb2bf471bc5c54ee2398a52b3b63742e2eb00d65))
+- **view:** country(s) view ui/components ([2d07792](https://github.com/zhid0399123/fullstack-open-exercises/commit/2d077929782b3692963dee46f49e3aefc9ff89aa))
+
 ## [0.12.1](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.12.0...0.12.1) (2023-09-11)
-
-### Refactor
-
-- **notification:** refactored style conditional logic ([9725b15](https://github.com/zhid0399123/fullstack-open-exercises/commit/9725b15556b8375de8d42eb4780b95b38693b658))
 
 # [0.12.0](https://github.com/zhid0399123/fullstack-open-exercises/compare/0.11.0...0.12.0) (2023-09-11)
 
