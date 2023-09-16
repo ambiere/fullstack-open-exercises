@@ -1,0 +1,35 @@
+@layer alt-spellings {
+  .altSpellingsWrapper {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .altSpellingsWrapper > p {
+    margin: 0;
+    font-size: 1.2rem !important;
+    white-space: pre;
+  }
+
+  .altSpellingsWrapper > *:first-child {
+    color: rgb(145, 145, 145) !important;
+    place-self: end;
+  }
+
+  .altSpellings {
+    appearance: none;
+    border: none;
+    border-radius: 6px;
+    background-color: transparent;
+    color: rgb(145, 145, 145);
+    cursor: pointer;
+    transition: all 250ms ease;
+  }
+
+  .altSpellingsBtn {
+    appearance: none;
+    background: transparent;
+    border: none;
+    color: rgb(145, 145, 145);
+    cursor: pointer;
+  }
+}

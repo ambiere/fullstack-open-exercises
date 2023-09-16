@@ -1,0 +1,20 @@
+@layer badges {
+  .badges {
+    margin-block: 1rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .badges > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2rem 0.4rem;
+    font-size: 1.2rem;
+    color: inherit !important;
+    border: 1px solid rgba(89, 89, 89, 0.622);
+    background: #1a1a1aff;
+    border-radius: 4px;
+    white-space: pre;
+  }
+}

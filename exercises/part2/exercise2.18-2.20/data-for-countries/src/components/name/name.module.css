@@ -1,0 +1,115 @@
+@layer name {
+  .nameWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  .common {
+    display: flex;
+    gap: 0.5rem;
+    color: rgb(145, 145, 145);
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  .officialName {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .officialName > h2 {
+    color: inherit !important;
+    margin: 0;
+    font-size: 1.8rem !important;
+    white-space: pre;
+  }
+
+  .flag,
+  .coatOfArms {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    padding: 0.2rem 0.4rem;
+    color: inherit !important;
+    border: 1px solid rgba(89, 89, 89, 0.622);
+    background: #1a1a1aff;
+    border-radius: 4px;
+    white-space: pre;
+  }
+  .cca3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    padding: 0.15rem 0.4rem;
+    color: inherit !important;
+    border: 1px solid rgba(89, 89, 89, 0.622);
+    background: #1a1a1aff;
+    border-radius: 4px;
+    white-space: pre;
+  }
+  .coatOfArms::before {
+    content: attr(data-coat-of-arms);
+    position: absolute;
+    width: fit-content;
+    white-space: pre;
+    border-radius: 4px;
+    background: #1a1a1aff;
+    padding: 0.2rem 0.4rem;
+    bottom: 2rem;
+    right: -5rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 250ms ease;
+  }
+  .flag::before {
+    content: attr(data-flag);
+    position: absolute;
+    width: fit-content;
+    white-space: pre;
+    background: #1a1a1aff;
+    padding: 0.2rem 0.4rem;
+    bottom: 2rem;
+    right: -2rem;
+    border-radius: 4px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 250ms ease;
+  }
+  .cca3::before {
+    content: attr(data-cca3);
+    position: absolute;
+    width: fit-content;
+    white-space: pre;
+    background: #1a1a1aff;
+    padding: 0.2rem 0.4rem;
+    bottom: 2rem;
+    right: -5rem;
+    border-radius: 4px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 250ms ease;
+  }
+  .flag:hover.flag::before,
+  .cca3:hover.cca3::before,
+  .coatOfArms:hover.coatOfArms::before {
+    visibility: visible;
+    opacity: 1;
+    bottom: 2.5rem;
+  }
+  .officialNative {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .officialNative > p {
+    margin: 0;
+    font-size: 1.2rem !important;
+    white-space: pre;
+  }
+  .officialNative > *:first-child {
+    color: rgb(145, 145, 145) !important;
+  }
+}
