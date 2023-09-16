@@ -20,4 +20,4 @@ A monorepo that contain solutions to all the exercises from fullstack open web d
 
 3.1 [exercise2.01-2.05: Course information app](exercises/part2/exercise2.01-2.05)<br>
 3.2 [exercise2.06-2.17: The phonebook](exercises/part2/exercise2.06-2.17)<br>
-3.3 [exercise2.18-2.20: The phonebook](exercises/part2/exercise2.18-2.20)<br>
+3.3 [exercise2.18-2.20: Data for countries](exercises/part2/exercise2.18-2.20)<br>
